@@ -52,7 +52,26 @@ body::-webkit-scrollbar-thumb {
 li{
     font-family: 'BMDOHYEON';
 }
+img{
+    position: absolute;
+    opacity: 0;
+}
+#i1{
+    left: -250px;
+}
+#i2{
+    right: -250px;
+}
+#i3{
+    top: -550px;
+}
+#i4{
+    right: -140px;
+}
+#i5{
+    left: -140px;
+}
 html, body { height: 100%; margin: 0;}
 body { overflow-x: hidden; }
-#container { width: 700%; height: 100%; display: flex; flex-wrap: nowrap; }
+#container { width: 800%; height: 100%; display: flex; flex-wrap: nowrap; }
 section { width: 100%; height: 100%; position: relative; display: flex; justify-content: center; align-items: center; }
