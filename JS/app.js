@@ -56,8 +56,14 @@ function onClick(){
   else if(cnt == 9){
     tl.to(".none", { duration: 0.01, ease: 'elastic', opacity: 0});
     const change =document.querySelector(".none");
-    change.innerText = "JOOBONG";
+    change.innerText = "JOOHONG";
     tl.to(".none", { duration: 2, y:-200, opacity: 1});
+  }
+  else if(cnt == 10){
+    tl.to(".none", { duration: 0.01, opacity: 0});
+    const change =document.querySelector(".none");
+    change.innerText = "JOOBONG";
+    tl.to(".none", { duration: 0.5, y:-200, opacity: 1});
   }
 }
 
