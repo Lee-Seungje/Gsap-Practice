@@ -17,14 +17,17 @@ body{
 }
 .top{
     width: 100%;
-    height: 484.5px;
+    height: 50%;
     background-color: #43966b;
     top: 0;
+}
+#container, .main, .Main{
+    height: 100%;
 }
 .bottom{
     background-color: #2e6cb1;
     width: 100%;
-    height: 484.5px;
+    height: 50%;
     animation: change 0.5s ease forwards;
 }
 a{
