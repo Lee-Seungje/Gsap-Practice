@@ -38,7 +38,7 @@ function onClick(){
   if(cnt == 0){
     tl.to("#chang", { duration: 0.01, ease: 'elastic', opacity: 0});
     const chang = document.querySelector("#chang");
-    chang.innerText = "창업 아이템";
+    chang.innerText = "사업 아이템";
     tl.to("#chang", { duration: 2, y:-200, opacity: 1});
   }
   if(cnt == 1){
